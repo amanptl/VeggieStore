@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swiperefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            app:cardBackgroundColor="@color/primaryColor"
+            android:layout_margin="16dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginBottom="@dimen/card_spacing">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/waller_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:alpha="0.7"
+                        android:layout_weight="10"
+                        android:gravity="start"
+                        android:text="Wallet Amount"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/refresh_button"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_weight="0"
+                            app:srcCompat="@drawable/baseline_refresh_white_18dp" />
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dp"
+                        android:gravity="center"
+                        android:text="Balance"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/wallet_frag_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2.5dp"
+                        android:gravity="center"
+                        android:textSize="40sp"
+                        android:textColor="@android:color/white"/>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

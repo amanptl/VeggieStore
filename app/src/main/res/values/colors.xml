@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#304ffe</color>
+    <color name="primaryLightColor">#7a7cff</color>
+    <color name="primaryDarkColor">#0026ca</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="accentColor">#E91E63</color>
+    <color name="black">#000</color>
+    <color name="green">#66BB6A</color>
+    <color name="red">#E53935</color>
+    <color name="backgroundForCard">#FAFAFA</color>
+    <color name="snackbarActionColor">#FFDD00</color>
+</resources>

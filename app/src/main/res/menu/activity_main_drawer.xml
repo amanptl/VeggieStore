@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/main_group"
+        android:checkableBehavior="single"
+        android:orderInCategory="1">
+        <item
+            android:id="@+id/nav_market"
+            android:icon="@drawable/outline_store_24"
+            android:title="Market" />
+        <item
+            android:id="@+id/nav_address"
+            android:icon="@drawable/outline_chrome_reader_mode_24"
+            android:title="My Addresses" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/outline_local_mall_24"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/outline_account_balance_wallet_24"
+            android:title="My Wallet" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/outline_notification_important_24"
+            android:title="Notifications"/>
+        <item
+            android:id="@+id/nav_franchise"
+            android:icon="@drawable/outline_assignment_24"
+            android:title="Get Franchise"/>
+    </group>
+
+    <group
+        android:id="@+id/user_group"
+        android:checkableBehavior="single"
+        android:orderInCategory="2">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/outline_exit_to_app_24"
+            android:title="Log In"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/outline_account_circle_24"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/outline_exit_to_app_24"
+            android:title="Logout"/>
+    </group>
+
+    <group
+        android:id="@+id/app_group"
+        android:checkableBehavior="single"
+        android:orderInCategory="4">
+        <item
+            android:id="@+id/nav_about_app"
+            android:icon="@drawable/outline_info_24"
+            android:title="About App" />
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@drawable/outline_verified_user_24"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/outline_share_24"
+            android:title="Share" />
+    </group>
+
+
+    <group
+        android:id="@+id/test_group"
+        android:checkableBehavior="single"
+        android:orderInCategory="5">
+        <item
+            android:id="@+id/nav_clear_location"
+            android:title="Clear location"
+            android:visible="false"/>
+    </group>
+
+</menu>
+
+

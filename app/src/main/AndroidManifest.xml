@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amanpatel.veggiestoretest0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service android:name=".Firebase.FirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <activity
+            android:name=".View.TermsAndConditions"
+            android:label="Terms And Conditions"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".View.PrivacyPolicy"
+            android:label="Privacy Policy"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".View.OrderDetailsActivity" />
+        <activity
+            android:name=".View.PasswordChangeActivity"
+            android:label="Change Password"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".View.EditProfileActivity"
+            android:label="Edit"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".View.ProfileActivity"
+            android:label="Profile"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".View.NewAddressActivity"
+            android:label="New Address"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".View.EditAddressActivity"
+            android:label="Edit Address"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".View.UpdateAddressActivity"
+            android:label="Update Address"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".View.CheckoutActivity"
+            android:label="Checkout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.LocationActivity"
+            android:label="Welcome."
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".View.MainActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.CartActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.SignUpActivity"
+            android:label=""
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".View.LogInActivity"
+            android:label=""
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".View.ProductsActivity"
+            android:label="Product"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.Products1"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".View.SearchActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.ProductDetails"
+            android:theme="@style/DetailsTheme" />
+    </application>
+
+</manifest>

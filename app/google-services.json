@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "82261384569",
+    "firebase_url": "https://veggiestoretest0.firebaseio.com",
+    "project_id": "veggiestoretest0",
+    "storage_bucket": "veggiestoretest0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82261384569:android:44b2b52868d41062",
+        "android_client_info": {
+          "package_name": "com.amanpatel.veggiestoretest0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82261384569-8vefi0de90eiuvf4gef7ld8caev4ocnp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amanpatel.veggiestoretest0",
+            "certificate_hash": "be4c93f26232ed8f7e716e5073c8797d9e998d4f"
+          }
+        },
+        {
+          "client_id": "82261384569-o96g2jfvl15lav5baa24omc9oul6lif9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkO6UOCONBHSmrRgLcXd8qoTrUHeaLra8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82261384569-o96g2jfvl15lav5baa24omc9oul6lif9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
